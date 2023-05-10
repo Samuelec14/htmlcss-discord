@@ -194,6 +194,29 @@
         .column1-sec5{
             width: 100%;
         }
+        main section .my-row .column1-sec5 h2{
+            font-size: 54px;
+            font-weight:700;
+            line-height: 60px;
+            padding-bottom: 25px;
+            text-align: center;
+        }  
+        main section .my-row .column1-sec5 p{
+            font-size: 20px;
+            font-weight:600;
+            line-height: 30px;
+            text-align: center;
+        }
+        main section .my-row .column1-sec5 > img:first-of-type{
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        main section .my-row .column1-sec5 div{
+            width: 80%;
+            margin-left: 25%;
+            margin-right: auto;
+        }
 
 /* FOOTER 
     */
@@ -259,10 +282,10 @@
     height: 300px;
     background-color: #FFC0CB;
 } */
-.column1-sec5{
+/* .column1-sec5{
     height: 700px;
     background-color: #228B22;
-}
+} */
 .column1-sec1-foot{
     height: 450px;
     background-color: lightcoral;
