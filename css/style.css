@@ -79,7 +79,7 @@
 /* MAIN  
 */
     section{
-        padding: 30px;
+        padding: 150px 0 150px 0;
     }
 
     /* 1st SECTION ROW 
@@ -87,7 +87,7 @@
         main .sec-1-bg{
             background-image: url(../img/jumbo.png);
             background-size: cover;
-            padding: 80px 0 100px 0;
+            padding: 100px 0 120px 0;
         }
         main section:first-child{
             color: white;
@@ -133,6 +133,60 @@
         }
         .column2-sec2{
             width: 40%;
+            padding-left: 30px;
+        }
+        .sec-2{
+
+        }
+        main section div[class="column2-sec2"] h2{
+            font-size: 60px;
+            font-weight:700;
+            line-height: 60px;
+            padding-bottom: 30px;
+        }
+        main section div[class="column2-sec2"] p{
+            font-size: 20px;
+            font-weight:600;
+            line-height: 30px;
+        }
+        main section div[class="column1-sec2"] img{
+        }
+
+    /* 3rd section row 
+    */
+        main section .my-row .column2-sec2{
+
+        }
+        main section .my-row .column1-sec3 h2{
+            font-size: 60px;
+            font-weight:700;
+            line-height: 60px;
+            padding-bottom: 30px;
+        }
+        main section .my-row .column1-sec3 p{
+            font-size: 20px;
+            font-weight:600;
+            line-height: 30px;
+            padding-right: 80px;
+        }
+
+     /* 4th section row 
+        */
+        main section .my-row .column2-sec2{
+
+        }
+        main section .my-row .column2-sec4 h2{
+            font-size: 60px;
+            font-weight:700;
+            line-height: 60px;
+            padding-bottom: 30px;
+            padding-left: 50px;
+        }
+        main section .my-row .column2-sec4 p{
+            font-size: 20px;
+            font-weight:600;
+            line-height: 30px;
+            padding-left: 50px;
         }
 
     /* 5th SECTION ROW 
@@ -188,7 +242,7 @@
     background-color: white;
 }
 .gray-bg{
-    background-color: #D3D3D3;
+    background-color: #f1f1f1;
 }
 .dark-gray-bg{
     background-color: #0E0E0E;
@@ -197,14 +251,14 @@
     background-color: #EE82EE;
     height: 300px;
 } */
-.column1-sec2{
+/* .column1-sec2{
     height: 300px;
     background-color: #1E90FF;
-}
-.column2-sec2{
+} */
+/* .column2-sec2{
     height: 300px;
     background-color: #FFC0CB;
-}
+} */
 .column1-sec5{
     height: 700px;
     background-color: #228B22;
