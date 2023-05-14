@@ -65,11 +65,15 @@
     .small2{
         width: 25%;
         text-align: right;
+        position: relative;
     }
     header div .button{
         background-color: white;
         color: #0E0E0E;
         width: 30%;
+        position: absolute;
+        right: 0;
+        top: -18px;
     }
     .wide1{
         width: 50%;
@@ -228,33 +232,77 @@
         .column2-sec1-foot{
             width: calc((100% / 3) * 2);
             display: flex;
+            padding-top: 12px;
         }
             /* 1ST ROW OF FOOTER SECTION 1 */
                 div[class= "column2-sec1-foot debug"] > div{
                     width: calc(100% / 4);
-                    border: 1px dashed white;
                 }
     footer section:first-child{
-        padding: 5px 0 30px 0;
+        padding: 5px 0 0px 0;
     }
     /* 2ND FOOTER SECTION ROW 
     */
     footer section:last-child{
-        padding: 20px 0 0 0;
-        border-top: 1px solid #D3D3D3;
+        padding: 1px 0 0 0;
     }
     .row-sec2-foot{
         justify-content: space-between;
         align-items: center;
         padding: 10px 0;
     }
+    footer section div ul li{
+        list-style: none;
+        line-height: 35px;
+    }
+    footer section{
+        background-color: rgb(35, 39, 42);
+    }
+    footer section .my-row{
+        color: white;
+        font-weight: 600;
+        margin-top: 70px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(122, 147, 236);
+    }
+    footer section h2,.menù-title{
+        color: rgb(122, 147, 236);
+        font-weight: 700;
+    }
+    footer section .my-row  h2{
+        font-size: 2.3em;
+        line-height: 40px;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
+    footer section .column1-sec1-foot p{
+        margin-bottom: 20px;
+    }
+    footer section .column1-sec1-foot p .fa-chevron-down{
+        font-size: 0.6em;
+    }
+    footer section .column1-sec1-foot div i{
+        font-size: 1.5em;
+        margin-inline-end: 30px;
+    }
+    footer section:last-of-type .my-row{
+        margin-top: 20px;
+        height: 100px;
+        border: none;
+        padding-bottom: 20px;
+    }
+    footer section:last-of-type .my-row .button{
+        background-color: rgb(122, 147, 236);
+        padding: 5px 15px 8px 15px;
+        font-weight: 600;
+    }
 
 
 /* DEBUG
 */
-.debug{
+/* .debug{
     border: 1px dashed black;
-}
+} */
     /* .header-column{
         background-color: #DAA520;
     } */
@@ -267,9 +315,9 @@
 .gray-bg{
     background-color: #f1f1f1;
 }
-.dark-gray-bg{
+/* .dark-gray-bg{
     background-color: #0E0E0E;
-}
+} */
 /* .column-sec1{
     background-color: #EE82EE;
     height: 300px;
@@ -286,22 +334,22 @@
     height: 700px;
     background-color: #228B22;
 } */
-.column1-sec1-foot{
+/* .column1-sec1-foot{
     height: 450px;
     background-color: lightcoral;
-}
-.column2-sec1-foot{
+} */
+/* .column2-sec1-foot{
     height: 450px;
     background-color: #2fd6d6;
-}
-.column1-sec2-foot{
+} */
+/* .column1-sec2-foot{
     background-color: #FFC0CB;
     padding: 3px;
-}
-.column2-sec2-foot{
+} */
+/* .column2-sec2-foot{
     background-color: #FFC0CB;
-    padding: 3px;
-}
-.row-sec2-foot{
+    padding: 3px; */
+/* } */
+/* .row-sec2-foot{
     background-color: aquamarine;
-}
+} */
